@@ -9,6 +9,11 @@ Green-Band from one galaxy of the Galaxy10 DECals Dataset[1]
 
 
 
+
+<p align="center">
+  <img src="https://github.com/SVJLucas/classic-watermark-analysis/assets/60625769/5069de7e-b44a-4eff-811f-8b62da6b89e9" alt="Results for DWT" height="1800px" />
+</p>
+
 # References
 
 1 - Henry W. Leung and Jo Bovy. Deep learning of multi-element abundances from high-resolution spectroscopic data. MNRAS, 483(3):3255–3277, March 2019. doi: 10.1093/mnras/sty3217.
