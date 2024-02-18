@@ -6,9 +6,14 @@ Test &amp; compare classic watermarking techniques: LSB, Patchwork, DCT, DWT and
 </p>
 
 Green-Band from one galaxy of the Galaxy10 DECals Dataset[1]
+# Transformations
 
+## Discrete Cossine Transform
+<p align="center">
+  <img src="https://github.com/SVJLucas/classic-watermark-analysis/assets/60625769/4eba359f-f286-4303-96f2-b8e8ac6e91aa" alt="Results for DCT" height="1800px" />
+</p>
 
-
+## Discrete Wavelet Transform
 
 <p align="center">
   <img src="https://github.com/SVJLucas/classic-watermark-analysis/assets/60625769/5069de7e-b44a-4eff-811f-8b62da6b89e9" alt="Results for DWT" height="1800px" />
