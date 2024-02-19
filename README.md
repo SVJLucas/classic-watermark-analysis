@@ -2,10 +2,13 @@
 
 # Summary
 
+
+- [Introduction and Motivation](#Introduction-and-Motivation)
+- [Watermarking using the Galaxy10 DECals Dataset](#Watermarking-using-the-Galaxy10-DECals-Dataset)
+- [Considered Attacks](#Considered-Attacks)
+- [Transformations and Post-Attack Extraction Visualizations](#Transformations-and-Post-Attack-Extraction-Visualizations)
+- [Metrics, Results and Discussion](#Metrics,-Results-and-Discussion)
 - [Conclusion](#Conclusion)
-- [Introduction and Motivation](#IntroductionandMotivation)
-- [Watermarking using the Galaxy10 DECals Dataset](#WatermarkingusingtheGalaxy10DECalsDataset)
-- [Considered Attacks](#ConsideredAttacks)
 
 # Introduction and Motivation
 
