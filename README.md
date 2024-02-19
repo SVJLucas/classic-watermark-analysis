@@ -2,6 +2,7 @@
 
 # Summary
 
+Test & compare classic frequency domain watermarking techniques: DCT, DWT and DWT-SVD. Analyze strengths, weaknesses, robustness against attacks.
 
 - [Introduction and Motivation](#Introduction-and-Motivation)
 - [Watermarking using the Galaxy10 DECals Dataset](#Watermarking-using-the-Galaxy10-DECals-Dataset)
