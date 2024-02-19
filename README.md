@@ -4,6 +4,8 @@
 
 - [Conclusion](#Conclusion)
 - [Introduction and Motivation](#IntroductionandMotivation)
+- [Watermarking using the Galaxy10 DECals Dataset](#WatermarkingusingtheGalaxy10DECalsDataset)
+- [Considered Attacks](#ConsideredAttacks)
 
 # Introduction and Motivation
 
