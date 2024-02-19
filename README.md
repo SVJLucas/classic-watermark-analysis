@@ -1,6 +1,12 @@
 # Putting Pixels to the Test: Evaluating the Power and Pitfalls of Traditional Frequency Domain Watermarking
 
-In the digital age, watermarking has emerged as a crucial technique for copyright protection, authentication, and ensuring the integrity of digital media. "Putting Pixels to the Test: Evaluating the Power and Pitfalls of Traditional Frequency Domain Watermarking" delves into the resilience and vulnerabilities of conventional frequency domain watermarking methods. Through a meticulous comparison of Discrete Cosine Transform (DCT) [1,2,3], Discrete Wavelet Transform (DWT) [4,5,6], and the innovative combination of Discrete Wavelet Transform with Singular Value Decomposition (DWT+SVD) [7,8], this analysis sheds light on how these techniques fare when faced with various image manipulation attacks. From subtle noise additions to aggressive geometric transformations, we explore the effectiveness of each watermarking strategy in preserving the hidden watermark's integrity. This exploration not only highlights the technological prowess of these methods in safeguarding digital assets but also exposes their limitations, offering invaluable insights into the complex landscape of digital watermarking.
+# Summary
+
+- [Conclusion](#Conclusion)
+
+# Introduction and Motivation
+
+In the digital age, watermarking has emerged as a crucial technique for copyright protection, authentication, and ensuring the integrity of digital media. "Putting Pixels to the Test: Evaluating the Power and Pitfalls of Traditional Frequency Domain Watermarking" delves into the resilience and vulnerabilities of conventional frequency domain watermarking methods. Through a meticulous comparison of Discrete Cosine Transform (DCT) [1,2,3], Discrete Wavelet Transform (DWT) [4,5,6], and the combination of Discrete Wavelet Transform with Singular Value Decomposition (DWT+SVD) [7,8], this analysis sheds light on how these techniques fare when faced with various image manipulation attacks. From subtle noise additions to aggressive geometric transformations, we explore the effectiveness of each watermarking strategy in preserving the hidden watermark's integrity. This exploration not only highlights the technological prowess of these methods in safeguarding digital assets but also exposes their limitations, offering invaluable insights into the complex landscape of digital watermarking.
 
 # Watermarking using the Galaxy10 DECals Dataset
 
@@ -187,6 +193,10 @@ The DCT method shows moderate resilience across all tests but generally performs
 | Gaussian Blur Test     | 0.4975       | 0.4318       | **0.0672**   |
 | Brightness Test        | 0.4676       | 0.3603       | **0.1077**   |
 | Contrast Test          | 0.4996       | 0.4926       | **0.1247**   |
+
+# Conclusion
+
+Our exploration into the application of traditional frequency domain watermarking techniques has illuminated both the potential and the limitations of current methodologies. The study's findings underscore the necessity for tailored approaches that consider the unique characteristics of the content being protected. Through testing against various attacks, we have identified key strengths and vulnerabilities inherent to Discrete Cosine Transform (DCT), Discrete Wavelet Transform (DWT), and the hybrid DWT+SVD methods, paving the way for future advancements in digital watermarking technology. This endeavor not only contributes to the field of digital image processing but also enhances the security and integrity of data.
 
 
 # References
