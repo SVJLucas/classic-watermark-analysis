@@ -1,12 +1,10 @@
 # Putting Pixels to the Test: Evaluating the Power and Pitfalls of Traditional Frequency Domain Watermarking
 
-In the digital age, watermarking has emerged as a crucial technique for copyright protection, authentication, and ensuring the integrity of digital media. "Putting Pixels to the Test: Evaluating the Power and Pitfalls of Traditional Frequency Domain Watermarking" delves into the resilience and vulnerabilities of conventional frequency domain watermarking methods. Through a meticulous comparison of Discrete Cosine Transform (DCT), Discrete Wavelet Transform (DWT), and the innovative combination of Discrete Wavelet Transform with Singular Value Decomposition (DWT+SVD), this analysis sheds light on how these techniques fare when faced with various image manipulation attacks. From subtle noise additions to aggressive geometric transformations, we explore the effectiveness of each watermarking strategy in preserving the hidden watermark's integrity. This exploration not only highlights the technological prowess of these methods in safeguarding digital assets but also exposes their limitations, offering invaluable insights into the complex landscape of digital watermarking.
-
-
+In the digital age, watermarking has emerged as a crucial technique for copyright protection, authentication, and ensuring the integrity of digital media. "Putting Pixels to the Test: Evaluating the Power and Pitfalls of Traditional Frequency Domain Watermarking" delves into the resilience and vulnerabilities of conventional frequency domain watermarking methods. Through a meticulous comparison of Discrete Cosine Transform (DCT) [1,2,3], Discrete Wavelet Transform (DWT) [4,5,6], and the innovative combination of Discrete Wavelet Transform with Singular Value Decomposition (DWT+SVD) [7,8], this analysis sheds light on how these techniques fare when faced with various image manipulation attacks. From subtle noise additions to aggressive geometric transformations, we explore the effectiveness of each watermarking strategy in preserving the hidden watermark's integrity. This exploration not only highlights the technological prowess of these methods in safeguarding digital assets but also exposes their limitations, offering invaluable insights into the complex landscape of digital watermarking.
 
 # Watermarking using the Galaxy10 DECals Dataset
 
-In this study, we delve into the realm of digital watermarking. Our focus lies on an image derived from the green-band of a galaxy, selected from the esteemed Galaxy10 DECals dataset. The Galaxy10 DECals dataset is an extensive collection of galaxy images, gathered through the Dark Energy Camera Legacy Survey (DECals). This dataset stands out for its comprehensive representation of various galaxy morphologies, captured with high resolution and precision.
+In this study, we delve into the realm of digital watermarking. Our focus lies on an image derived from the green-band of a galaxy, selected from the esteemed Galaxy10 DECals dataset [9]. The Galaxy10 DECals dataset is an extensive collection of galaxy images, gathered through the Dark Energy Camera Legacy Survey (DECals). This dataset stands out for its comprehensive representation of various galaxy morphologies, captured with high resolution and precision.
 
 <p align="center">
   <img src="https://github.com/SVJLucas/classic-watermark-analysis/assets/60625769/cb3874aa-2976-473d-a082-9316078dc927" alt="Green-Band from one galaxy of the Galaxy10 DECals Dataset" width="250px"/>
@@ -193,4 +191,20 @@ The DCT method shows moderate resilience across all tests but generally performs
 
 # References
 
-1 - Henry W. Leung and Jo Bovy. Deep learning of multi-element abundances from high-resolution spectroscopic data. MNRAS, 483(3):3255–3277, March 2019. doi: 10.1093/mnras/sty3217.
+[1]  M. Rafigh, M.E. Moghaddam, A robust evolutionary based digital image watermarking technique in DCT domain, in: 2010 Seventh International Conference on Computer Graphics, Imaging and Visualization, IEEE, 2010, pp. 105–109.
+
+[2] R. Mehta, N. Rajpal, V.P. Vishwakarma, Adaptive image watermarking scheme using fuzzy entropy and GA-ELM hybridization in DCT domain for copyright protection, J. Signal Process. Syst. 84 (2) (2016) 265–281.
+
+[3] Adrian G Bors and Ioannis Pitas, “Image watermarking using dct domain constraints,” in ICIP, 1996
+
+[4] Xiang-Gen Xia, Charles G Boncelet, and Gonzalo R Arce, “Wavelet transform based watermark for digital images,” Optics Express, 1998.
+
+[5] C. Agarwal, A. Mishra, A. Sharma, Gray-scale image watermarking using GA-BPN hybrid network, J. Vis. Commun. Image Represent. 24 (7) (2013) 1135–1146.
+
+[6] M. Ali, C.W. Ahn, An optimal image watermarking approach through cuckoo search algorithm in wavelet domain, Int. J. Syst. Assur. Eng. Manag. 9 (3) (2018) 602–611.
+
+[7] N.R. Zhou, A.W. Luo, W.P. Zou, Secure and robust watermark scheme based on multiple transforms and particle swarm optimization algorithm, Multimedia Tools Appl. 78 (2) (2019) 2507–2523
+
+[8] V. Verma, V.K. Srivastava, F. Thakkar, DWT-SVD based digital image watermarking using swarm intelligence, in: 2016 International Conference on Electrical, Electronics, and Optimization Techniques (ICEEOT), IEEE, 2016, pp. 3198–3203
+
+[9] Henry W. Leung and Jo Bovy. Deep learning of multi-element abundances from high-resolution spectroscopic data. MNRAS, 483(3):3255–3277, March 2019. doi: 10.1093/mnras/sty3217.
