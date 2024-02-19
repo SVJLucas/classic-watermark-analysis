@@ -13,6 +13,7 @@ Test & compare classic frequency domain watermarking techniques: DCT, DWT and DW
   - [Discrete Wavelet Transform (DCT)+SVD](#Discrete-Wavelet-Transform-DWT--SVD)
 - [Metrics, Results and Discussion](#Metrics-Results-and-Discussion)
 - [Conclusion](#Conclusion)
+- [References](#References)
 
 # Introduction and Motivation
 
