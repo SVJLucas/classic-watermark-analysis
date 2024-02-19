@@ -9,7 +9,7 @@
 - [Transformations and Post-Attack Extraction Visualizations](#Transformations-and-Post-Attack-Extraction-Visualizations)
   - [Discrete Cossine Transform (DCT)](#Discrete-Cossine-Transform-DCT)
   - [Discrete Wavelet Transform (DCT)](#Discrete-Wavelet-Transform-DWT)
-  - [Discrete Wavelet Transform (DCT)+SVD](#Discrete-Wavelet-Transform-DWT-SVD)
+  - [Discrete Wavelet Transform (DCT)+SVD](#Discrete-Wavelet-Transform-DWT--SVD)
 - [Metrics, Results and Discussion](#Metrics-Results-and-Discussion)
 - [Conclusion](#Conclusion)
 
