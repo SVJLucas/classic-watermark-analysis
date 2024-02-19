@@ -77,11 +77,7 @@ class DiscreteWaveletTransformSVD:
         sw_estimated = (s_watermarked - s_original) / self.alpha
 
         extracted_watermark = np.dot(self.Uw, np.dot(np.diag(sw_estimated), self.Vw))
-
-        # Normalize the differences to a 0-1 range
-        estimated_differences_normalized = (extracted_watermark - np.min(extracted_watermark)) / (np.max(extracted_watermark) - np.min(extracted_watermark))
-
-        threshold = 0.5
-        extracted_watermark = np.where(estimated_differences_normalized > threshold, 255, 0)
-
+        extracted_watermark = np.clip(extracted_watermark,0,255)
+        extracted_watermark = np.where(extracted_watermark>0.5,255,0)
+        extracted_watermark = np.array(extracted_watermark,dtype=np.uint32)
         return extracted_watermark
